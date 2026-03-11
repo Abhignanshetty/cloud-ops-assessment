@@ -85,7 +85,7 @@ Application logs are available in AWS CloudWatch Logs.
 
 This allows monitoring and debugging of running containers.
 
-## Proof of Deployment
+## Deployment Proof
 
 Below are screenshots showing the service running successfully on AWS ECS Fargate.
 
@@ -94,3 +94,12 @@ http://13.204.63.134:5000/health
 
 Events Endpoint:
 http://13.204.63.134:5000/events
+
+### Health Endpoint
+![Health](screenshots/health-endpoint.png)
+
+### Events Endpoint
+![Events](screenshots/events-endpoint.png)
+
+### CloudWatch Logs
+![Logs](screenshots/cloudwatch-logs.png)
